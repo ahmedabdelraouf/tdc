@@ -1,4 +1,30 @@
 ```
-# Laravel-specific ignores
-database/seeders/*.php
+# Environment
+.env
+.env.local
+.env.*
+
+# Dependencies
+vendor/
+node_modules/
+
+# Build and cache
+bootstrap/cache/
+storage/framework/cache/
+storage/logs/
+*.log
+
+# Compiled and temp files
+*.php~
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
 ```
